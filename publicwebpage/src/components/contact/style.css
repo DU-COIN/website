@@ -1,0 +1,21 @@
+.contact-section .contactWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-section .contactForm {
+  background: url("../../assets/images/contact_bg.png");
+  background-size: cover;
+  background-position: 50%;
+  background-color: transparent !important;
+  border-radius: 0;
+  padding: 60px;
+}
+
+.contact-section .contactForm input {
+  background-color: "#0b1d33";
+  color: #fff;
+}
